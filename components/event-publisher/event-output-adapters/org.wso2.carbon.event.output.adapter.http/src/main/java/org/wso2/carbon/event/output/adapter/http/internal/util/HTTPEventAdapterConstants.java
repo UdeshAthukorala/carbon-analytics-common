@@ -38,6 +38,12 @@ public class HTTPEventAdapterConstants {
     public static final String ADAPTER_USERNAME_HINT = "http.username.hint";
     public static final String ADAPTER_PASSWORD = "http.password";
     public static final String ADAPTER_PASSWORD_HINT = "http.password.hint";
+    public static final String ADAPTER_FROM = "http.from";
+    public static final String ADAPTER_CLIENT_ID = "http.clientId";
+    public static final String ADAPTER_CLIENT_SECRET = "http.clientSecret";
+    public static final String ADAPTER_TOKEN_ENDPOINT = "http.tokenEndpoint";
+    public static final String ADAPTER_SCOPES = "http.scopes";
+    public static final String ADAPTER_AUTH_TYPE = "http.authType";
     public static final String ADAPTER_HEADERS = "http.headers";
     public static final String ADAPTER_HEADERS_HINT = "http.headers.hint";
     public static final String HEADER_SEPARATOR = ",";
@@ -53,4 +59,16 @@ public class HTTPEventAdapterConstants {
     public static final int DEFAULT_DEFAULT_MAX_CONNECTIONS_PER_HOST = 2;
     public static final String MAX_TOTAL_CONNECTIONS = "maxTotalConnections";
     public static final int DEFAULT_MAX_TOTAL_CONNECTIONS = 20;
+
+    // Authentication types.
+    public static final String CLIENT_CREDENTIAL = "CLIENT_CREDENTIAL";
+    public static final String BASIC = "BASIC";
+    public static final String BEARER = "BEARER";
+
+    // Credential properties.
+    public static final String EMAIL_PROVIDER = "EMAIL_PROVIDER";
+    public static final String CLIENT_ID = "clientId";
+    public static final String CLIENT_SECRET = "clientSecret";
+    public static final String USERNAME = "userName";
+    public static final String PASSWORD = "password";
 }
